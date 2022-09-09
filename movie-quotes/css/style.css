@@ -1,0 +1,52 @@
+body{
+    background-color: #fff5e8;
+}
+
+.header{
+    text-align: center;
+}
+
+.lines{
+    margin-left: 30%;
+    margin-right: 30%
+}
+.layout{
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.hrstyle{
+    border-top: 1px dashed lightblue;
+}
+
+.Venkman{
+    color:green;
+    font-weight: bold;
+}
+
+.Barrett{
+    color:palevioletred;
+    font-weight: bold;
+}
+
+.Mayor{
+    color:cornflowerblue;
+    font-weight: bold;
+}
+
+.Stantz{
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.Spengler{
+    color: purple;
+    font-weight: bold;
+}
+
+.Zeddemore{
+    color: maroon;
+    font-weight: bold;
+}
