@@ -1,0 +1,33 @@
+
+#rectangle{
+    width: 300px;
+    height: 1350px;
+    position: absolute;
+    left: 50%; 
+    transform:translate(-50%,0);
+    background: white;
+    box-shadow:0px 0px 50px white ;
+    
+}
+
+body{
+
+    background-image:url(https://media1.popsugar-assets.com/files/thumbor/OD1OfZhwin680pVqiw0PeZGBhGw/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2021/06/03/662/n/1922564/fbba9c571e7e5b2d__MG_3768/i/olivia-rodrigo-sour-shop-depop.jpg); 
+    background-size: cover;
+    
+}
+
+
+.texttype{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-variant: small-caps;
+    color: black;
+    text-align: center;
+
+}
+
+
+
+    
+
