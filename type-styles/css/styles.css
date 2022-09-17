@@ -1,0 +1,123 @@
+
+html{
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px;  
+    background-color: #3AAFA9;
+    color: #17252A;
+  }
+  body{
+    display: block;
+    margin-left: 11%;
+    margin-right: 40%;
+  }
+
+.header{
+    margin-bottom: 90px;
+    
+
+}
+.chunks{
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.squares{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    /* background-color: #2B7A78; 
+    box-shadow:5px 15px 30px #2B7A78;
+    border:1px solid #2B7A78; */
+}
+h1{
+    margin-bottom: 0px;
+    margin-top: 30px;
+    font-size: 120px;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    color: #FEFFFF;
+}
+h2{
+    font-size:30px;
+    margin-bottom: 15px;
+    color: #FEFFFF;
+    font-weight:900;
+}
+h4{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 30px;
+
+}
+h5{
+    font-size: 12pt;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-weight: 600;
+}
+
+h3{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.thin{
+    font-weight: 100;
+}
+.extralight{
+    font-weight: 200;
+}
+.light{
+    font-weight: 300;
+}
+.regular{
+    font-weight: 400;
+}
+.medium{
+    font-weight: 500;
+}
+.semibold{
+    font-weight: 600;
+}
+.bold{
+    font-weight: 700;
+}
+.extrabold{
+    font-weight: 800;
+}
+.black{
+    font-weight: 900;
+}
+.italic{
+    font-style: italic;
+}
+.largespace{
+    letter-spacing: .2em;
+}
+.smallspace{
+    letter-spacing: 0.1em;
+}
+.skinny{
+    letter-spacing: -.05em;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+.overline{
+    text-decoration: overline;
+}
+.linethrough{
+    text-decoration: line-through;
+}
+.underline{
+    text-decoration: underline;
+}
+.underlineoverline{
+    text-decoration: underline overline;
+}
