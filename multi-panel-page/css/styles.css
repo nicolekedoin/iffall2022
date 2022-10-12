@@ -1,0 +1,145 @@
+html{
+    font-family: 'Archivo Narrow', sans-serif;
+    line-height: 1.2;
+}
+
+.panel{
+    background-color: rgba(0, 255, 0, 0.2);
+    
+}
+
+.content{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 22px 0;
+}
+
+#intro .content{
+    text-align: center;
+}
+
+#intro{
+    background-image: url("blueswirl4.png");
+    background-size: 1920px;
+
+
+}
+
+#description{
+    background-color: #7E7EA9;
+   padding-top: 10px;
+   padding-bottom: 20px; 
+
+}
+
+h1{
+    font-size: 80px;
+    margin: 0;
+    margin-top: 136px;
+    color: #FFFFFF;
+}
+
+h2{
+    margin-bottom: 5.4em;
+    margin-block-start: 5px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+p{
+    line-height: 1.4em;
+    margin-top: 35px;
+    margin-bottom: -20px;
+    font-size: 18px;
+    color: #FFFFFF;
+    }
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    margin-block-start: 12px;
+    margin-block-end: 0px;
+    color: #FFFFFF;
+    
+}
+
+
+.blobs{
+    float: right;
+    margin: 0 0 2rem 2.5rem;
+}
+
+.photogrid{
+    display: grid;
+    grid-template-columns:210px 1fr;
+    padding: 0rem;
+    align-items: center;
+    column-gap: 16.9rem;
+    row-gap: .1rem;
+  
+    
+}
+
+.photogrid li{
+    width: 100%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 212px 1fr ;
+    margin-top: 18px;
+   
+}
+
+.caption{
+    width: 220px;
+    margin-top: -24px;
+}
+
+
+#grid{
+    padding-top: 10px;
+    background-color: #5D9756;
+}
+
+h4{
+    font-size: 20px;
+    margin-bottom: 4px;
+    color: #FFFFFF;
+}
+
+.captionpara{
+    margin-top: 8px;
+    margin-bottom: 1.2rem;
+}
+
+#grid .content{
+    padding-bottom: 44px;
+}
+
+#conclusion .content p{
+    font-size: 26px;
+    text-align: center;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    margin-bottom: 34px;
+}
+
+#conclusion{
+    padding-top: 8px;
+   padding-bottom: 44px;
+    background-color: #F6A5BF; 
+    
+}
+
+#footer{
+    padding-top: 0px;
+    padding-bottom: 40px;
+    background-color: #7E7EA9;
+}
+
+#footer p{
+    margin-top: 1.2rem;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
