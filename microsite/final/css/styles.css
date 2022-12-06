@@ -1,0 +1,751 @@
+
+
+body{
+font-family: roboto, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 20pt;
+background-color: #1d2025;
+
+}
+
+header{
+    margin: 0;
+}
+
+/************ styling Nav Bar  **************************/
+nav#main-nav ul{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+nav#main-nav ul li a {
+    display: inline-block;
+    color: #1ea249;
+    padding: 0em 1em;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+nav#main-nav ul li a:hover{
+    color: white;
+}
+
+nav#main-nav ul li a.selected{
+    color: #58595b;
+}
+
+
+nav{
+    background-color: #181818;
+    margin: -10px -10px -10px;
+}
+
+#smalllogo{
+    font-family: cheddar-gothic-rough, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40pt;
+    margin-left: -.55em;
+    }
+.hamburger{
+    padding-top: .5em;
+    right:.5em;
+    position:absolute;
+    display: inline-block;
+    color: #1ea249;
+    text-decoration: none;
+    transition: all .5s;}
+
+ .hamburger:hover{
+    color:#ffffff;
+}
+.restnav{
+    font-size: 1.3rem;
+    padding-top: 1em;
+}
+
+@media (max-width:630px){
+    .restnav{display: none;}
+}
+
+@media (min-width:630px){
+    .hamburger{display: none;}
+    #popmenu{display: none;}
+}
+@media (max-width:630px){
+    .hamburger{display:block}}
+/********** Dials Image *****************************/
+.dials{
+ width: 50%;
+    margin-right: 0;
+    align-items: right;
+    margin-left: 50%;
+   
+} 
+
+#dial{
+    width: 100%;
+}
+
+/* Grid *************************/
+.gridcolumns{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width:100%; 
+    margin-top: 2em;
+    margin-bottom: 2%;
+ 
+}
+
+.gridcolumns li{
+    width: 100%;
+}
+
+.column1{
+    margin-right: -13em;
+    margin-left: 3em;
+}
+
+@media (max-width: 617px) {
+    .column1{
+        margin-left: 1%;
+    }
+}
+
+@media (max-width: 617px) {
+    .header img{
+        width:70%;
+    }
+}
+
+
+
+.column2{
+    margin-top: 1.5em;
+    margin-right: -.2em;
+    z-index: -1;
+}
+
+@media (max-width: 870px) {
+    .column2 {
+        margin-top:4em;
+    }
+}
+
+/* @media  (max-width: 818px){
+    .column2{margin-right: 10%;}
+} */
+
+@media (max-width: 434px) {
+    .column2 {
+        margin-top:4.5em;
+    }
+}
+
+@media (max-width: 870px){
+    .header h2{
+        margin-right: 30%;
+    }
+ }
+
+ @media (max-width: 670px){
+    .header h2{
+        margin-right: 50%;
+    }
+ }
+/* Large Caption ************************/
+h2{
+    font-size: .95em;
+    color: #ffffff;
+    margin-left: .8em;
+    margin-right: 1em;
+    margin-top: -.05rem;
+    font-weight: 700;
+    margin-bottom: 3em;
+}
+
+@media (max-width: 1177px) {
+    h2{font-size: 2vw; line-height: 3vw;}
+}
+
+ @media (max-width: 617px) {
+    h2{font-size: 50%; line-height: 115%;}
+} 
+
+
+/* What Happened title and Paragraph */
+
+.what-happened{
+    background-color: #2e2f33 ;
+    align-items: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: -1.3em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: .75em;
+    padding-bottom: 2em;
+    border-radius: 20px;
+   z-index: 20;
+}
+
+
+h3{
+    font-family: cheddar-gothic-rough, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40pt; 
+    color: #6ec069;
+    text-align: center;
+}
+
+@media (max-width: 1137px) {
+    h3{font-size: 120%;}
+}
+
+p{
+    color: #ffffff;
+    font-size: .7em;
+    margin-top: -.5em;
+    margin-bottom: 2em;
+    margin-left: 5em; margin-right: 5em;
+}
+
+
+
+/***************Buttons with Images *********** */
+
+.image-button-1{
+    background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.9)),
+    url('All_women_or_girls_using_radium_paint_with_no_protection_or_warnings_in_1922\,_from-_USRadiumGirls-Argonne1\,ca1922-23-150dpi_\(cropped\).png');
+    background-size: cover;
+    color: white;
+    border-radius: 20px;
+    text-align: left;
+    width: 100%;
+    margin-right: 3em;
+    padding-top: 6em;
+    padding-bottom: .7em;
+}
+
+.image-button-2{
+    background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.9)),
+    url('b3cb30906d3a035a189836d42df8fc32-radium-girls-gone-wrong.png');
+    background-size: cover;
+    color: white;
+    border-radius: 20px;
+    text-align: left;
+    width: 100%;
+    margin-right: 3em;
+    padding-top: 6em;
+    padding-bottom: .7em;
+}
+
+.image-button-3{
+    background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.9)),
+    url('ct-sta-vickroy-radium-girls-st-0523-20160519.png');
+    background-size: cover;
+    color: white;
+    border-radius: 20px;
+    text-align: left;
+    width: 100%;
+    margin-right: 3em;
+    padding-top: 6em;
+    padding-bottom: .7em;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 2em;
+    grid-gap: .5em;
+    height: 100%;
+    grid-template-rows: 2em;
+    margin-bottom: 15em;
+}
+
+@media (max-width: 1230px) {
+    .grid-2 { grid-template-columns: 1fr; 
+    margin-left: 10%; margin-right: 10%;
+    width:80%; padding:0; grid-template-rows: 11em;
+    margin-bottom: 5em;
+    }
+  }
+
+.overlay-text {
+    padding-top: 0;
+    font-size: .5em;
+    padding-left: 3%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+  } 
+
+h4{
+    font-size: 1.5em; 
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.image-button-1:hover{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.9)),
+    url('All_women_or_girls_using_radium_paint_with_no_protection_or_warnings_in_1922\,_from-_USRadiumGirls-Argonne1\,ca1922-23-150dpi_\(cropped\).png');
+    background-size: cover;
+    text-decoration: underline;
+}
+
+.image-button-2:hover{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.9)),
+    url('b3cb30906d3a035a189836d42df8fc32-radium-girls-gone-wrong.png');
+    text-decoration: underline;
+}
+
+.image-button-3:hover{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.9)),
+    url('ct-sta-vickroy-radium-girls-st-0523-20160519.png');
+    text-decoration: underline;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:active{
+    color: white;
+    text-decoration: none;
+}
+
+
+/****** Footer Navigation *****************/
+
+.footer{
+    margin: 0, -5em, -5em, -5em;
+    background-color: #181818;
+    margin-bottom: -5em;
+    width: 100%;
+}
+
+.footer ul{
+    margin-right: 5em;
+    list-style: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: right;
+}
+
+
+.footer ul li{
+    margin-bottom: .4em;
+}
+
+.footer ul li a:hover{
+    color:#6ec069;
+}
+.bottomnav{
+    font-size: .5em;
+    color: #ffffff;
+}
+#smalllogo2{
+    font-family: cheddar-gothic-rough, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+
+}
+.bottom{
+    margin: -10px -10px -10px;
+}
+
+@media (max-width: 938px){
+    .what-happened{margin-left: 2%; margin-right: 2%;
+    padding-left: 3%; padding-right: 3%;
+    margin-top: -.5%;}
+
+    .footer ul{margin-right: 3%;}
+
+}
+
+/* background page **********/
+
+.toppage{
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2.2em;
+}
+
+@media (max-width: 1029px) {
+    .toppage{margin-left: 10%;
+        margin-right: 10%;}
+}
+
+
+.body-background{
+    background-color: #2e2f33 ;
+    align-items: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 1.3em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: .75em;
+    padding-bottom: 2em;
+    border-radius: 20px;
+}
+
+@media (max-width: 938px){
+    .body-background{margin-left: 2%; margin-right: 2%;
+    padding-left: 3%; padding-right: 3%;
+    margin-top: -.5%;}
+}
+
+.background-text{
+    margin-left: 5em;
+    margin-right: 5em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+@media (max-width: 938px){
+    .background-text{margin-left: 2%; margin-right: 2%;
+    padding-left: 3%; padding-right: 3%;
+    margin-top: -.5%;}
+}
+
+#undark{
+    width: 20%;
+    float: left;
+    margin: 3rem 2rem 3rem 0;
+}
+
+@media (max-width: 1340px){
+    #undark{margin-left: 3%;
+    margin-right: 2%; margin-bottom: 1%;}
+}
+
+@media (min-width: 1650px){
+    #undark{width:15%}
+}
+
+@media (max-width: 930px){
+    #undark{margin-left: 3%;
+    margin-right: 2%; margin-bottom: 1%; margin-top: 15%;}
+}
+
+#dial{
+    width: 100%;
+    float: left;
+    margin: -.5rem 2rem 0rem 0;
+}
+
+
+
+.significance-body{
+    background-color: #2e2f33 ;
+    align-items: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 1.3em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: .75em;
+    padding-bottom: 2em;
+    border-radius: 20px;
+}
+
+@media (max-width: 938px){
+    .significance-body{margin-left: 2%; margin-right: 2%;
+    padding-left: 3%; padding-right: 3%;
+    margin-top: -.5%;}
+}
+
+h5{
+    font-family: cheddar-gothic-rough, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50pt; 
+    color: #6ec069;
+    text-align: center;
+}
+
+
+
+.resource-body{
+    margin-left: 8.3%;
+    margin-right: 8.3%;
+    margin-bottom: 3em;
+}
+
+.resource-body ul li{
+    color: #ffffff;
+    font-size: .7em;
+}
+
+
+#rdco{
+    width: 25%;
+    float: left;
+    margin: -.5rem 1rem 0rem 6rem;
+}
+
+@media (max-width: 1403px) {
+    p{margin-left: .5em; margin-right: .5em;}
+    #rdco{ margin: -.5rem 1rem 0rem 0.5rem;}
+}
+
+
+/* Resources Page */
+#litigation{
+    width: 25%;
+    float: left;
+    margin: -.5rem 2rem 0rem 6rem;
+}
+
+/* Resources Page Grid **************/
+
+/***************Buttons with Images *********** */
+
+.grid-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 2em;
+    grid-gap: .5em;
+    height: 100%;
+    grid-template-rows: 15em;
+    margin-bottom: 5em;
+    box-sizing: border-box;
+    height: 50%;
+    /* grid-template-rows: 10em 20em; */
+}
+
+.grid-3 a {
+    max-height: 5em;
+}
+
+.media-1{
+    background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.9)),
+    url('radiumgirlsjoeyking.png');
+    background-size: cover;
+    color: white;
+    border-radius: 20px;
+    text-align: left;
+    width: 100%;
+    margin-right: 3em;
+    padding-top: 6em;
+    padding-bottom: .7em;
+    height:100%;
+}
+
+.media-2{
+    background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.9)),
+    url('radium_girls_cover.png');
+    background-size: cover;
+    color: white;
+    border-radius: 20px;
+    text-align: left;
+    width: 100%;
+    margin-right: 3em;
+    padding-top: 6em;
+    padding-bottom: .7em;
+    height:100%;
+}
+
+.media-3{
+    background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.9)),
+    url('luminous.png');
+    background-size: cover;
+    color: white;
+    border-radius: 20px;
+    text-align: left;
+    width: 100%;
+    margin-right: 3em;
+    padding-top: 6em;
+    padding-bottom: .7em;
+    height:100%;
+}
+
+.media-4{
+    background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.9)),
+    url('glowbook.png');
+    background-size: cover;
+    color: white;
+    border-radius: 20px;
+    text-align: left;
+    width: 100%;
+    margin-right: 3em;
+    padding-top: 6em;
+    padding-bottom: .7em;
+    height:100%;
+}
+
+.media-5{
+    background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.9)),
+    url('theseshininglives_poster.png');
+    background-size: cover;
+    color: white;
+    border-radius: 20px;
+    text-align: left;
+    width: 100%;
+    margin-right: 3em;
+    padding-top: 6em;
+    padding-bottom: .7em;
+    height:100%;
+}
+.media-1 .overlay-text{
+    margin-top: 4.5em;
+}
+.media-2 .overlay-text{
+    margin-top: 4.5em;
+}
+.media-3 .overlay-text{
+    margin-top: 4em;
+}
+.media-4 .overlay-text{
+    margin-top: 4em;
+}
+.media-5 .overlay-text{
+    margin-top: -2.5em;
+}
+
+.media-1:hover{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.9)),
+    url('radiumgirlsjoeyking.png');
+    background-size: cover;
+    text-decoration: underline;
+}
+
+.media-2:hover{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.9)),
+    url('radium_girls_cover.png');
+    text-decoration: underline;
+}
+
+.media-3:hover{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.9)),
+    url('luminous.png');
+    text-decoration: underline;}
+
+.media-4:hover{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.9)),
+    url('glowbook.png');
+    text-decoration: underline;}
+
+.media-5:hover{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.9)),
+    url('theseshininglives_poster.png');
+    text-decoration: underline;}
+
+@media (max-width: 1279px) {
+    .grid-3 { grid-template-columns: 1fr 1fr; 
+    margin-left: auto; margin-right: auto;
+    width:20em; padding:0; grid-template-rows: 15em 15em 15em;}
+
+    .media-5 .overlay-text{
+        margin-top: 3em;
+    }
+  }
+
+  @media (max-width: 656px) {
+    .grid-3 { grid-template-columns: 1fr; 
+    margin-left: auto; margin-right: auto;
+    width:8em; padding:0; grid-template-rows: 13em 13em 13em 13em 13em;}
+
+    .media-5 .overlay-text{
+        margin-top: 2.5em;
+    }
+  }
+
+  @media (max-width: 1410px) {
+    #litigation{margin-left: .5em;}
+    }
+
+
+ /* Hidden Nav *******************************/
+#popmenu.open ul li a{
+    background-color: #181818;
+    color: #1ea249;
+    padding: 0em 0em;
+    text-decoration: none;
+    
+    transition: all .5s;
+    
+}
+
+#popmenu.open ul li {
+    text-decoration: none;
+    list-style: none;
+    font-size: .75em;
+    line-height: 1.8em;
+    text-align: right;
+}
+
+#popmenu.open{
+    position: absolute;
+    background-color: #181818;
+    width: 200px;
+    padding-top: .5em;
+    padding-bottom: .3em;
+    /* margin-top: -1em; */
+    margin-left: auto;
+    right: 0;
+    padding-right: .7em;
+    height: 20%;
+    z-index: 200;
+     
+}
+/* @media (max-width:565px){
+    #popmenu.open{ font-size:5vw}
+} */
+
+#popmenu.open ul{
+    /* padding-left: 0; */
+    padding-left: 1em; padding-right: 1em;
+    
+}
+
+#popmenu.open ul li a:hover{
+    color:#ffffff;
+}
+
+#popmenu{
+    height: 0;
+    background-color: none;
+    color: transparent;
+}
+
+#popmenu ul li a{
+    background-color: none;
+    color: transparent;
+    text-decoration: none;
+}
+
+#popmenu ul li {
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+/* .hamburger:active {
+    transform: rotate(90deg);
+} */
